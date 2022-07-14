@@ -1,16 +1,14 @@
 import React from 'react'
 import { LayoutProps } from '../../models/layout'
-import Header from '../Header'
 
 
 
-const Layout = ({children}: LayoutProps) => {
+const adminLayout = ({children}: LayoutProps) => {
   return (
-    <div>
-        <Header />
+    <div>Admin
         {children}
     </div>
   )
 }
 
-export default Layout
+export default adminLayout

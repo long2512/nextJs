@@ -34,3 +34,8 @@ export default Products
 
 // getStaticProps without data
 // getStaticProps with data
+
+// SSR - Server Side rendering
+// SSG - Sever site generation
+// ISG - incremental site generation
+// CSR - Client Side Rendering
